@@ -1,0 +1,118 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header {
+	display: flex;
+	flex-direction: row;
+	height: 62px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding-top: 3px;
+	box-sizing: border-box;
+	position: fixed;
+	background-color: white;
+	top: 0;
+}
+
+header div {
+	margin-left: 15px;
+}
+
+header .logoContainer div {
+	height: 51px;
+	width: 75px;
+}
+
+header .logoContainer div img {
+	width: 100%;
+	max-width: max-content;
+	height: 100%;
+}
+
+.titreEntete {
+	color: black;
+	padding-top: 3px;
+	font-size: 18px;
+}
+
+/* main */
+
+main {
+	padding: 60px 28px;
+	color: black;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-weight: 10%;
+}
+
+.annonceHeader {
+	color: black;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.noteImportante {
+	color: blue;
+}
+
+.contactButton {
+	background-color: #004E00;
+	border-radius: 5px;
+	padding-top: 10px;
+	color: white;
+	width: 122px;
+	height: 30px;
+	text-align: center;
+}
+
+
+.noteMission {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.imageMission {
+	box-sizing: border-box;
+	width: 200px;
+	margin: 0;
+}
+
+.noteMission .imageMission figure {
+	width: 100%;
+	max-width: max-content;
+	margin-left: 15%;
+}
+
+.noteMission .imageMission figure img {
+	width: 100%;
+	max-width: max-content;
+}
+
+/* footer */
+
+footer {
+	color: rgba(0, 0, 0, 0.99);
+	font-size: 12px;
+	height: 60px;
+	padding-top: 1%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #aaa
+}
+
+footer .socialMediasLinks i {
+	margin-left: 5px;
+	color: rgba(0, 0, 0, 0.99);
+}

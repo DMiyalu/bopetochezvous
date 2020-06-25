@@ -103,16 +103,25 @@ p {
 
 footer {
 	color: rgba(0, 0, 0, 0.99);
-	font-size: 12px;
-	height: 60px;
-	padding-top: 1%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	height: 65px;
+	padding-top: 2%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #aaa
+	background-color: rgba(243, 240, 240, 0.986)
 }
 
 footer .socialMediasLinks i {
 	margin-left: 5px;
 	color: rgba(0, 0, 0, 0.99);
+}
+
+footer .copyright {
+	font-size: 12px;
+}
+
+footer .annee {
+	font-size: 16px;
 }

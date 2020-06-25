@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const PORT = 3000;
+const PORT =  process.env.PORT || 3000;
 
 // Build server
 server.listen(PORT, () => {
@@ -17,3 +17,5 @@ server.set('view engine', 'ejs')
 server.get('/', (request, response) => {
 	response.render('accueil');
 })
+
+

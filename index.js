@@ -1,6 +1,7 @@
 const express = require('express');
 const server = express();
 const PORT =  process.env.PORT || 3000;
+const CONCURRENCY = process.env.WEB_CONCURRENCY || 1;
 
 // Build server
 server.listen(PORT, () => {

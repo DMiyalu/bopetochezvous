@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "build": "bower install && grunt build",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
 
   "author": "",

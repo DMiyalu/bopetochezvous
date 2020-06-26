@@ -19,4 +19,3 @@ server.get('/', (request, response) => {
 	response.render('accueil');
 })
 
-

@@ -1,15 +1,16 @@
 {
   "name": "app",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "bower install && grunt build",
     "start": "nodemon index.js"
   },
-  "engines": {
-    "node": "12.x"
-  },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
